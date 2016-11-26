@@ -11,8 +11,5 @@ class Home extends  CI_Controller
    public  function  index() {
         echo  "hello" ;
    }
-   public  function  test ($name = "My Test", $lastname = "Najaa") {
-       echo "Myname is :" .$name." " .$lastname;
 
-   }
 }
